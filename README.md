@@ -14,9 +14,11 @@ Download sevir data:
 Using boto3
 
 To make test dataset:
- python make_nowcast_dataset.py --sevir_data sevir --sevir_catalog CATALOG.csv --output_location interim
+python make_nowcast_dataset.py --sevir_data sevir --sevir_catalog CATALOG.csv --output_location interim
 
 Once, you have the require data, you can run the Synrad and Nowcast notebooks present in notebooks/.
+
+Refer the master branch for the implementation of Nowcasting.
 
 This repo also contains a design document that focuses on deployment of the Nowcast Intelligent System in an Insurance Provider senario.
 
